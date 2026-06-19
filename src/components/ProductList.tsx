@@ -6,7 +6,7 @@
 import { useState, useMemo } from "react";
 import { Search, SlidersHorizontal, Trash2 } from "lucide-react";
 import ProductCard from "./ProductCard.tsx";
-import { Product, products } from "../data/products.ts";
+import { Product, products } from "../../api/data/products.ts";
 
 interface ProductListProps {
   onSelectProductQuery: (productName: string) => void;

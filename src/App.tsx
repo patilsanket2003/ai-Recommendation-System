@@ -7,7 +7,7 @@ import { useState, FormEvent } from "react";
 import { Sparkles, ArrowRight, Smartphone, Laptop, Headphones, Watch, ShoppingBag } from "lucide-react";
 import ProductList from "./components/ProductList.tsx";
 import RecommendationList from "./components/RecommendationList.tsx";
-import { Product } from "./data/products.ts";
+import { Product } from "../api/data/products.ts";
 
 export interface AIAnalysis {
   budget_detected: string;
