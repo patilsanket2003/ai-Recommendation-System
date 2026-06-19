@@ -1,0 +1,6 @@
+{
+  "name": "AI Product Recommendation System",
+  "description": "An AI-powered product recommendation system using Gemini to analyze natural language queries and recommend catalog items.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
