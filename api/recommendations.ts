@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { getRecommendationsFromGemini } from './services/geminiService.ts';
-import { products } from './data/products.ts';
+import { getRecommendationsFromGemini } from './services/geminiService';
+import { products } from './data/products';
 
 export default async function handler(
   request: VercelRequest,

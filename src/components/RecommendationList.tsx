@@ -6,9 +6,9 @@
 import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, Terminal, RefreshCw, AlertCircle, HelpCircle, ShoppingBag } from "lucide-react";
-import ProductCard from "./ProductCard.tsx";
-import { Product, products } from "../../api/data/products.ts";
-import { AIAnalysis, RecommendedProduct } from "../App.tsx";
+import ProductCard from "./ProductCard";
+import { Product, products } from "../../api/data/products";
+import { AIAnalysis, RecommendedProduct } from "../App";
 
 interface RecommendationListProps {
   isLoading: boolean;

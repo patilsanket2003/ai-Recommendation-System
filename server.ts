@@ -7,15 +7,15 @@ import express from "express";
 import path from "path";
 import dotenv from "dotenv";
 import { createServer as createViteServer } from "vite";
-import { getRecommendationsFromGemini } from "./api/services/geminiService.ts";
-import { products } from "./api/data/products.ts";
+import { getRecommendationsFromGemini } from "./api/services/geminiService";
+import { products } from "./api/data/products";
 
 // Load environment variables
 dotenv.config();
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Body parsing middleware
   app.use(express.json());
