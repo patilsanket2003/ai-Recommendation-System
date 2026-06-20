@@ -4,7 +4,7 @@
  */
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { products } from "../data/products";
+import { products } from "./products";
 
 /**
  * Initializes the official Google Gen AI Client.

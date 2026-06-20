@@ -6,7 +6,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Smartphone, Laptop, Headphones, Watch, Star, ArrowUpRight } from "lucide-react";
-import { Product } from "../../api/data/products";
+import { Product } from "../../lib/products";
 
 interface ProductCardProps {
   product: Product;

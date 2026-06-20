@@ -7,8 +7,8 @@ import express from "express";
 import path from "path";
 import dotenv from "dotenv";
 import { createServer as createViteServer } from "vite";
-import { getRecommendationsFromGemini } from "./api/services/geminiService";
-import { products } from "./api/data/products";
+import { getRecommendationsFromGemini } from "./lib/geminiService";
+import { products } from "./lib/products";
 
 // Load environment variables
 dotenv.config();

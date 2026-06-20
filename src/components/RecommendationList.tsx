@@ -7,7 +7,7 @@ import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Sparkles, Terminal, RefreshCw, AlertCircle, HelpCircle, ShoppingBag } from "lucide-react";
 import ProductCard from "./ProductCard";
-import { Product, products } from "../../api/data/products";
+import { Product, products } from "../../lib/products";
 import { AIAnalysis, RecommendedProduct } from "../App";
 
 interface RecommendationListProps {
